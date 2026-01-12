@@ -55,7 +55,7 @@ export class CustomerPage {
       );
     };
 
-    console.log("hii")
+    console.log("hii2")
 
     // ---- Province ----
     const provinceSelector = 'select[name="loc_state"], select#loc_state';
