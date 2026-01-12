@@ -55,7 +55,7 @@ export class CustomerPage {
       );
     };
 
-    console.log("hii2")
+    console.log("hii oshani")
 
     // ---- Province ----
     const provinceSelector = 'select[name="loc_state"], select#loc_state';
