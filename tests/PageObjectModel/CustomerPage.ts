@@ -43,7 +43,7 @@ export class CustomerPage {
     await this.fillByLabel('Divisional Secretariat', data.divisional);
    
 
-    // Helper: wait for specific dropdown option label to appear
+    // Helper: wait for specific dropdown option label to appears
     const waitForOptionByLabel = async (selector: string, expectedLabel: string) => {
       await this.page.waitForFunction(
         ([sel, lbl]) => {
@@ -54,6 +54,8 @@ export class CustomerPage {
         { timeout: 20000 }
       );
     };
+
+    console.log("hii")
 
     // ---- Province ----
     const provinceSelector = 'select[name="loc_state"], select#loc_state';
